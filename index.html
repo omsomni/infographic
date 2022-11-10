@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOGRAPHIC</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/730963410568609853/1040283648156512287/unknown.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script defer src="script.js"></script>
+
+    <div class="bg">
+        <h2 id="title">EARTH SUBSYSTEMS</h2>
+
+        <div class="content">
+            <div class="atmosphere" id="atmosphere" onmouseenter="sub_hover(this)" onmouseout="sub_out(this)">
+                <div class="top">
+                    <h3 id="atmosphere_text">
+                        <img src="https://cdn.discordapp.com/attachments/730963410568609853/1040254953853300736/unknown.png" style="height: auto; width: 130px; border-radius: 10px;">
+                    </> 
+                </div>
+
+                <div class="mid">
+                    <h2> ATMOSPHERE </h2>
+                </div>
+
+            </div>
+
+            <div class="biosphere" id="biosphere" onmouseover="sub_hover(this)" onmouseout="sub_out(this)">
+                <div class="top">
+                    <h3 id="biosphere_text">
+                        <img src="https://cdn.discordapp.com/attachments/730963410568609853/1040257644587384832/image.png" style="height: 100px; width: 130px; border-radius: 10px;">
+                    </h3> 
+                </div>
+
+                <div class="mid">
+                    <h2> BIOSPHERE </h2>
+                </div>
+            </div>
+
+            <div class="hydrosphere" id="hydrosphere" onmouseenter="sub_hover(this)" onmouseout="sub_out(this)">
+                <div class="top">
+                    <h3 id="hydrosphere_text">
+                        <img src="https://cdn.discordapp.com/attachments/730963410568609853/1040258532680945736/unknown.png" style="height: auto; width: 130px; border-radius: 10px;">
+                    </h3> 
+                </div>
+
+                <div class="mid">
+                    <h2> HYDROSPHERE </h2>
+                </div>
+            </div>
+
+            <div class="geosphere" id="geosphere" onmouseenter="sub_hover(this)" onmouseout="sub_out(this)">
+                <div class="top">
+                    <h3 id="geosphere_text">
+                        <img src="https://cdn.discordapp.com/attachments/730963410568609853/1040258882540408912/unknown.png"  style="height: auto; width: 130px; border-radius: 10px;">
+                    </h3> 
+                </div>
+
+                <div class="mid">
+                    <h2> GEOSPHERE </h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="interactions">
+        <h2 id="title">INTERACTIONS</h2>
+
+        <div class="content">
+            <div class="first" id="first" onclick="clicked(this)">
+                <div class="top">
+                    <h3 id="first_text"> ATMOSPHERE </h3>
+                </div>
+
+                <div class="mid">
+                    <h4 id="first_desc"> BIOSPHERE </h4>
+                </div>
+            </div>
+
+            <div class="second" id="second" onclick="clicked(this)">
+                <div class="top">
+                    <h3 id="second_text"> BIOSPHERE </h3>
+                </div>
+
+                <div class="mid">
+                    <h4 id="second_desc"> HYDROSPHERE </h4>
+                </div>
+            </div>
+
+            <div class="third" id="third" onclick="clicked(this)"> 
+                <div class="top">
+                    <h3 id="third_text"> HYDROSPHERE </h3>
+                </div>
+
+                <div class="mid">
+                    <h4 id="third_desc"> GEOSPHERE </h4>
+                </div>
+            </div>
+
+            <div class="fourth" id="fourth" onclick="clicked(this)">
+                <div class="top">
+                    <h3 id="fourth_text"> GEOSPHERE </h3>
+                </div>
+
+                <div class="mid">
+                    <h4 id="fourth_desc"> ATMOSPHERE </h4>
+                </div>
+            </div>
+
+            <div class="fifth" id="fifth" onclick="clicked(this)">
+                <div class="top">
+                    <h4 id="fifth_text"> ALL FOUR EARTH'S SUBSYSTEMS </h4>
+                </div>
+
+                <div class="mid">
+                    <h2 id="fifth_desc"> CLICK ME! </h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
